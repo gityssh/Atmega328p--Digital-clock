@@ -1,0 +1,366 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 6000 1700
+Wire Bus Line
+	6000 1700 3700 1700
+Wire Wire Line
+	4400 6150 4150 6150
+Wire Wire Line
+	4400 5800 4400 6150
+Wire Wire Line
+	4150 5700 4400 5700
+Wire Wire Line
+	4150 5850 4150 5700
+$Comp
+L Device:C 100nF
+U 1 1 645416E6
+P 4150 6000
+F 0 "100nF" H 4265 6000 50  0000 R CNN
+F 1 "C" H 4265 5955 50  0001 L CNN
+F 2 "" H 4188 5850 50  0001 C CNN
+F 3 "~" H 4150 6000 50  0001 C CNN
+	1    4150 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5250 5250 4400
+Wire Wire Line
+	3150 5250 5250 5250
+Wire Wire Line
+	3150 4100 3150 5250
+Wire Wire Line
+	2500 4100 3150 4100
+Wire Wire Line
+	2500 5000 2950 5000
+Wire Wire Line
+	2500 4400 3050 4400
+Wire Wire Line
+	6500 5350 6500 4400
+Wire Wire Line
+	3050 5350 6500 5350
+Wire Wire Line
+	3050 4400 3050 5350
+Wire Wire Line
+	2500 4700 3000 4700
+Wire Wire Line
+	3000 5400 3000 4700
+Wire Wire Line
+	6700 5400 3000 5400
+Wire Wire Line
+	6700 4400 6700 5400
+Wire Wire Line
+	6900 5450 6900 4400
+Wire Wire Line
+	2950 5450 6900 5450
+Wire Wire Line
+	2950 5000 2950 5450
+Wire Wire Line
+	6700 2700 6700 3200
+Wire Wire Line
+	3100 2700 6700 2700
+Wire Wire Line
+	3100 3850 3100 2700
+Wire Wire Line
+	2550 3850 3100 3850
+Wire Wire Line
+	6500 2650 6500 3200
+Wire Wire Line
+	3050 2650 6500 2650
+Wire Wire Line
+	3050 3650 3050 2650
+Wire Wire Line
+	2550 3650 3050 3650
+Wire Wire Line
+	4850 3100 4850 3200
+Wire Wire Line
+	2950 3100 4850 3100
+Wire Wire Line
+	2950 3450 2950 3100
+Wire Wire Line
+	2550 3450 2950 3450
+Wire Bus Line
+	3800 2550 3800 1800
+Connection ~ 3800 2550
+Wire Bus Line
+	2850 2550 3800 2550
+Wire Bus Line
+	2850 3000 2850 2550
+Wire Bus Line
+	2500 3000 2850 3000
+Wire Bus Line
+	2750 2450 3700 2450
+Wire Bus Line
+	2750 3250 2750 2450
+Wire Bus Line
+	2550 3250 2750 3250
+Text GLabel 2500 5000 0    50   Input ~ 0
+PD7
+Text GLabel 2500 4700 0    50   Input ~ 0
+PD6
+Text GLabel 2500 4400 0    50   Input ~ 0
+PD5
+Text GLabel 2500 4100 0    50   Input ~ 0
+Buzz
+Text GLabel 2550 3450 0    50   Input ~ 0
+photoR
+Text GLabel 2500 3850 0    50   Input ~ 0
+DIO
+Text GLabel 2500 3650 0    50   Input ~ 0
+CLK
+Text GLabel 2500 3250 0    50   Input ~ 0
+VCC
+Text GLabel 2500 3000 0    50   Input ~ 0
+GND
+$Comp
+L Device:C C?
+U 1 1 645A40EF
+P 5850 3000
+F 0 "C?" V 5598 3000 50  0001 C CNN
+F 1 "100nF" V 5690 3000 50  0000 C CNN
+F 2 "" H 5888 2850 50  0001 C CNN
+F 3 "~" H 5850 3000 50  0001 C CNN
+	1    5850 3000
+	0    1    1    0   
+$EndComp
+Wire Bus Line
+	4550 5700 4400 5700
+Connection ~ 4550 5700
+Wire Bus Line
+	4550 5500 4550 5700
+Wire Bus Line
+	3800 5500 4550 5500
+Wire Bus Line
+	3800 3600 3800 5500
+Wire Bus Line
+	4000 3600 3800 3600
+Wire Bus Line
+	4450 5800 5700 5800
+Connection ~ 4450 5800
+Wire Bus Line
+	4450 4700 4450 5800
+Wire Wire Line
+	4000 4000 4000 4400
+Connection ~ 4450 4400
+Wire Wire Line
+	4300 4400 4450 4400
+$Comp
+L Device:C C?
+U 1 1 645A1237
+P 4150 4400
+F 0 "C?" V 3898 4400 50  0001 C CNN
+F 1 "100nF" V 3990 4400 50  0000 C CNN
+F 2 "" H 4188 4250 50  0001 C CNN
+F 3 "~" H 4150 4400 50  0001 C CNN
+	1    4150 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 645A0DFE
+P 4000 3800
+F 0 "SW?" V 4000 3752 50  0001 R CNN
+F 1 "SW_Push" V 3955 3752 50  0001 R CNN
+F 2 "" H 4000 4000 50  0001 C CNN
+F 3 "~" H 4000 4000 50  0001 C CNN
+	1    4000 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R 10K
+U 1 1 645A07E0
+P 4450 4550
+F 0 "10K" H 4520 4550 50  0000 R CNN
+F 1 "R" H 4520 4505 50  0001 L CNN
+F 2 "" V 4380 4550 50  0001 C CNN
+F 3 "~" H 4450 4550 50  0001 C CNN
+	1    4450 4550
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	6000 3200 6000 1700
+Connection ~ 5700 1800
+Wire Bus Line
+	5700 3200 5700 1800
+Wire Bus Line
+	6000 5700 5850 5700
+Connection ~ 6000 5700
+Wire Bus Line
+	6000 5250 6000 5700
+Wire Bus Line
+	6300 5700 6000 5700
+Connection ~ 6300 5700
+Wire Bus Line
+	6300 5250 6300 5700
+Wire Bus Line
+	5700 5800 8800 5800
+Connection ~ 5700 5800
+Wire Bus Line
+	5700 4400 5700 5800
+Wire Bus Line
+	5850 5700 4550 5700
+Connection ~ 5850 5700
+Wire Bus Line
+	5850 4400 5850 5700
+Wire Bus Line
+	8700 5700 6300 5700
+Wire Bus Line
+	3800 1800 5700 1800
+Wire Bus Line
+	3800 2600 3800 2550
+Wire Bus Line
+	3700 1700 3700 2450
+Wire Bus Line
+	4400 5800 4450 5800
+Connection ~ 6000 4850
+Wire Wire Line
+	6000 4950 6000 4850
+Connection ~ 6300 4850
+Wire Wire Line
+	6300 4950 6300 4850
+Wire Wire Line
+	6000 4550 6000 4850
+Wire Wire Line
+	6100 4400 6100 4550
+Wire Wire Line
+	6300 4550 6300 4850
+Wire Wire Line
+	6250 4400 6250 4550
+$Comp
+L Device:C C?
+U 1 1 64596A43
+P 6300 5100
+F 0 "C?" H 6415 5146 50  0001 L CNN
+F 1 "22pF" H 6415 5100 50  0000 C BNN
+F 2 "" H 6338 4950 50  0001 C CNN
+F 3 "~" H 6300 5100 50  0001 C CNN
+	1    6300 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C 22pF
+U 1 1 64596334
+P 6000 5100
+F 0 "22pF" H 6115 5146 50  0000 R CNN
+F 1 "C" H 6115 5055 50  0001 L CNN
+F 2 "" H 6038 4950 50  0001 C CNN
+F 3 "~" H 6000 5100 50  0001 C CNN
+	1    6000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal 16MHz
+U 1 1 64595EBB
+P 6150 4850
+F 0 "16MHz" H 6150 5026 50  0000 C CNN
+F 1 "Crystal" H 6150 5027 50  0001 C CNN
+F 2 "" H 6150 4850 50  0001 C CNN
+F 3 "~" H 6150 4850 50  0001 C CNN
+	1    6150 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L AT328p_U:ATmega328p_U U?
+U 1 1 64590752
+P 5800 3800
+F 0 "U?" H 5800 5375 50  0001 C CNN
+F 1 "ATmega328p_U" H 5800 2370 50  0000 C CNN
+F 2 "" H 7600 4850 50  0001 C CIN
+F 3 "" H 5800 3800 50  0001 C CNN
+	1    5800 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 4550 6300 4550
+Wire Wire Line
+	6100 4550 6000 4550
+Wire Bus Line
+	5700 1800 8700 1800
+Wire Bus Line
+	6000 1700 8800 1700
+Wire Wire Line
+	4000 4400 4000 4800
+Connection ~ 4000 4400
+Text Notes 7450 7500 0    50   ~ 0
+HexClock - Layer_1
+Text Notes 8150 7650 0    50   ~ 0
+03-May-2023
+Wire Bus Line
+	8800 1700 8800 5800
+Wire Bus Line
+	8700 1800 8700 5700
+Wire Wire Line
+	4000 4800 3300 4800
+Wire Wire Line
+	3300 4800 3300 2400
+Wire Wire Line
+	3300 2400 2500 2400
+Wire Wire Line
+	4650 4900 3350 4900
+Wire Wire Line
+	3350 2200 2500 2200
+Wire Wire Line
+	4650 4400 4650 4900
+Wire Wire Line
+	4850 5050 3450 5050
+Wire Wire Line
+	3450 2000 2500 2000
+Wire Wire Line
+	4850 4400 4850 5050
+Text GLabel 2400 2400 0    50   Input ~ 0
+DTR
+Text GLabel 2350 2200 0    50   Input ~ 0
+TX
+Text GLabel 2350 2000 0    50   Input ~ 0
+RX
+Wire Wire Line
+	3450 2000 3450 5050
+Wire Wire Line
+	3350 2200 3350 4900
+Wire Wire Line
+	6300 3200 6300 3050
+Wire Wire Line
+	6300 3050 7500 3050
+Wire Wire Line
+	7500 3050 7500 2750
+$Comp
+L Device:LED D?
+U 1 1 6459DDA4
+P 7800 2750
+F 0 "D?" H 7793 2967 50  0001 C CNN
+F 1 "LED" H 7793 2875 50  0000 C CNN
+F 2 "" H 7800 2750 50  0001 C CNN
+F 3 "~" H 7800 2750 50  0001 C CNN
+	1    7800 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6459E43C
+P 8250 2750
+F 0 "R?" V 8043 2750 50  0001 C CNN
+F 1 "10K" V 8135 2750 50  0000 C CNN
+F 2 "" V 8180 2750 50  0001 C CNN
+F 3 "~" H 8250 2750 50  0001 C CNN
+	1    8250 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8400 2750 8800 2750
+Wire Wire Line
+	8100 2750 7950 2750
+Wire Wire Line
+	7500 2750 7650 2750
+$EndSCHEMATC

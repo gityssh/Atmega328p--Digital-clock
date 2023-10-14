@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name AT328p_U)(type Legacy)(uri /home/bullbust/Work/ENTC/Atmega328p/HexClock/doc/ATmega328p_U.lib)(options "")(descr custom))
+)
