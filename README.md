@@ -2,6 +2,7 @@
 
 ## Purpose of this project- 
 The only purpose of this project is to try out the theory knowledge practically. It is not practical to use atmega328p to make a Digital-clock because this mcu is capable of doing much more powerful things.
+The goal was to learn, thats why i haven't used abstract libraries like-tm1637.h , eeprom.h , Bluetooth.h . Instead i made custom libraries which is programed by directly adding values in mcu registers. Doing this allowed me to understand atmega328p internally.
 
 ### General Description-
 It's a Digital-clock, can be connected via Bluetooth to mobile phone for updating time, setting alarm, update buzzer volume, update buzzer tune, set brightness, set time format, go to sleep mode, etc. all this can be done via our phone- Bluetooth text based app. and all this can be done using on board buttons too. It can live up to 48 hours depending on usage and brightness.
